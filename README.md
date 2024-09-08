@@ -1,50 +1,44 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# CRUD App with React, Redux, JWT Authentication, and Supabase
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a CRUD (Create, Read, Update, Delete) application built with React and Redux for state management. It uses JWT (JSON Web Token) for secure authentication and Supabase for backend database and authentication services.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **CRUD Operations**: Perform create, read, update, and delete operations on data records.
+- **User Authentication**: Secure login and registration using JWT tokens.
+- **State Management**: Manage global application state with Redux.
+- **Backend Integration**: Utilize Supabase for database storage and real-time updates.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **React**: A JavaScript library for building user interfaces.
+- **Redux**: A state management library for JavaScript applications.
+- **JWT (JSON Web Token)**: Used for secure user authentication.
+- **Supabase**: Provides real-time databases and authentication services.
+- **Node.js**: JavaScript runtime used for server-side operations.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Prerequisites
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Before setting up the project, ensure you have the following installed:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Node.js** (v14 or higher)
+- **Yarn** (You can install Yarn from [here](https://classic.yarnpkg.com/en/docs/install))
+- **Git**
+
+
+## Getting Started
+cd crud-app-react-redux 
+
+**yarn install** : To install all dependencies
+**yarn run dev** : To start the server
+
+### Clone the Repository
+
+Clone the repository using Git:
+
+```bash
+git clone https://github.com/crud-app-react-redux.git
+
