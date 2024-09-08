@@ -32,8 +32,8 @@ Before setting up the project, ensure you have the following installed:
 ## Getting Started
 cd crud-app-react-redux 
 
-**yarn install** : To install all dependencies
-**yarn run dev** : To start the server
+- **yarn install** : To install all dependencies.
+- **yarn run dev** : To start the server.
 
 ### Clone the Repository
 
