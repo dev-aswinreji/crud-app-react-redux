@@ -1,3 +1,5 @@
+# Issue regarding building this project
+I am facing a small issue regarding supabase and resend smtp service provider it takes some time to verify domain .
 
 # CRUD App with React, Redux, JWT Authentication, and Supabase
 
